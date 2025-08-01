@@ -59,8 +59,8 @@ Netflix-Data-Processing/
 
 3. Install dependencies:
 
-Run **pip install -r requirements.txt** to download all required packages.
+  - Run **pip install -r requirements.txt** to download all required packages.
 
 4. Run the notebook:
 
-Open Netflex_data_analysis.ipynb in Jupyter Notebook
+  - Open Netflex_data_analysis.ipynb in Jupyter Notebook
