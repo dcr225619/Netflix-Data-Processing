@@ -1,13 +1,62 @@
 ## Netflix Recommendation System 
 
-### Goal:
+This project builds a data-driven movie recommendation system using the [Netflix Prize dataset](https://www.kaggle.com/netflix-inc/netflix-prize-data). It focuses on end-to-end data processing, exploratory data analysis, and predictive modeling using machine learning techniques.
 
-Develop a recommendation system based on the Netflix price dataset.
+### Goals:
 
-### Package Installation:
+- Preprocess and clean large-scale user-movie rating data
+- Analyze viewing patterns and ratings trends
+- Build recommendation models using:
+  - Matrix factorization (Truncated SVD)
+  - Cosine similarity
+  - XGBoost regression
+- Evaluate model performance on validation and test datasets
+
+### Technologies Used:
+
+- Python (Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib)
+- XGBoost
+- Truncated SVD (matrix decomposition)
+- Cosine similarity (collaborative filtering)
+- Sparse matrix optimization
+- Jupyter Notebook
+
+### Project Structure:
+Netflix-Data-Processing/
+├── data.csv # Cleaned, preprocessed dataset
+├── train.csv / val.csv / test.csv # Splits for training, validation, testing
+├── Netflex_data_analysis.ipynb # Main notebook with full pipeline
+└── README.md
+
+### Key Steps:
+
+1. **Data Preprocessing**:
+   - Parsed txt data
+   - Cleaned missing and duplicate entries
+   - Converted dates, sorted by time
+
+2. **Exploratory Analysis**:
+   - User/movie statistics
+   - Rating distributions over time
+
+3. **Modeling**:
+   - **Collaborative Filtering**: Truncated SVD + Cosine Similarity
+   - **XGBoost Regression**: Supervised learning to predict user ratings
+
+4. **Evaluation**:
+   - RMSE on validation/test sets
+   - Comparison of different algorithms
+
+### How to Run:
+
+1. Clone the repository.
+
+2. Download dataset from [Netflix Prize dataset](https://www.kaggle.com/netflix-inc/netflix-prize-data).
+
+3. Install dependencies:
 
 Run **pip install -r requirements.txt** to download all required packages.
 
-### Reference:
+4. Run the notebook:
 
-> Dataset: https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data/data.
+Open Netflex_data_analysis.ipynb in Jupyter Notebook
