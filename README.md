@@ -22,11 +22,13 @@ This project builds a data-driven movie recommendation system using the [Netflix
 - Jupyter Notebook
 
 ### Project Structure:
+```
 Netflix-Data-Processing/
 ├── data.csv # Cleaned, preprocessed dataset
 ├── train.csv / val.csv / test.csv # Splits for training, validation, testing
 ├── Netflex_data_analysis.ipynb # Main notebook with full pipeline
 └── README.md
+```
 
 ### Key Steps:
 
