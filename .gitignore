@@ -1,0 +1,24 @@
+echo "# 数据文件
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pkl
+*.pickle
+*.zip
+*.rar
+*.npz
+*.h5
+data/
+datasets/
+
+# Python 相关
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints
+
+# 系统文件
+.DS_Store
+Thumbs.db" > .gitignore
+
