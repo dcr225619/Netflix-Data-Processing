@@ -24,8 +24,10 @@ This project builds a data-driven movie recommendation system using the [Netflix
 ### Project Structure:
 ```
 Netflix-Data-Processing/
-├── data.csv # Cleaned, preprocessed dataset
-├── train.csv / val.csv / test.csv # Splits for training, validation, testing
+├── combined_data_1.txt
+├── combined_data_2.txt
+├── combined_data_3.txt
+├── combined_data_4.txt
 ├── Netflex_data_analysis.ipynb # Main notebook with full pipeline
 └── README.md
 ```
